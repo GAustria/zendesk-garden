@@ -23,7 +23,7 @@ module.exports = {
   "src/DropdownItemGroupRadioMerge/DropdownItemGroupRadioMerge.js"
   "src/DropdownItemRadioMerge/DropdownItemRadioMerge.js"
   
-  uxpin-code server --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --cwd ~/Documents/dev/zendesk/garden 
+  uxpin-code --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --cwd ~/Documents/dev/zendesk/garden --dump > ./metadata.json
   */
   
   
