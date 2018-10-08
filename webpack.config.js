@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: ["./src/index.js"],
@@ -19,7 +20,14 @@ module.exports = {
     module: {
       rules: [
         {
-          use: ["babel-loader"],
+          use: {
+            loader: "babel-loader",
+            options: {
+              babelrc: false,
+              presets: ['es2015', 'react'],
+              plugins: ['inline-react-svg', 'transform-object-assign', 'styled-components']
+            }
+          },
           test: /\.js?$/,
           exclude: /node_modules/
         },
@@ -30,7 +38,29 @@ module.exports = {
         {
           use: ["raw-loader"],
           test: /\.svg$/
+        },
+        {
+          test: /\.css$/,
+          use: [
+            "style-loader",
+            {
+              loader: "css-loader",
+              options: {
+                modules: false,
+                localIdentName: '[local]___[hash:base64:5]'
+              },
+            },
+          ]
         }
       ]
     }
 };
+
+
+/**
+ *      options: {
+            babelrc: false,
+            presets: ['es2015', 'react', 'stage-0'],
+            plugins: ['inline-react-svg', 'transform-object-assign', 'styled-components']
+          }
+ */

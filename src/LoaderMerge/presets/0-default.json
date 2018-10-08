@@ -1,0 +1,14 @@
+{
+  "rootId": "loadermerge3270945540",
+  "elements": {
+    "loadermerge3270945540": {
+      "name": "LoaderMerge",
+      "props": {
+        "size": "50px",
+        "color": "#006cff"
+      }
+    }
+  }
+}
+
+
