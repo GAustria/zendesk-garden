@@ -1,0 +1,33 @@
+{
+  "rootId": "togglemerge1608755150",
+  "elements": {
+    "togglemerge1608755150": {
+      "name": "ToggleMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "togglelabelmerge3254838580"
+          },
+          {
+            "uxpinPresetElementId": "togglemessagemerge27124656"
+          }
+        ]
+      }
+    },
+    "togglelabelmerge3254838580": {
+      "name": "ToggleLabelMerge",
+      "props": {
+        "children": "Default Checkbox"
+      }
+    },
+    "togglemessagemerge27124656": {
+      "name": "ToggleMessageMerge",
+      "props": {
+        "validation": "success",
+        "children": "Success"
+      }
+    }
+  }
+}
+
+

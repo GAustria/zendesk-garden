@@ -1,0 +1,14 @@
+{
+  "rootId": "typographymerge268407219",
+  "elements": {
+    "typographymerge268407219": {
+      "name": "TypographyMerge",
+      "props": {
+        "children": "Message",
+        "size": "xxl"
+      }
+    }
+  }
+}
+
+

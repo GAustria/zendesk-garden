@@ -1,0 +1,32 @@
+{
+  "rootId": "textfieldmerge3897622714",
+  "elements": {
+    "textfieldmerge3897622714": {
+      "name": "TextFieldMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "textfieldlabelmerge2691883641"
+          },
+          {
+            "uxpinPresetElementId": "inputmerge356313427"
+          }
+        ]
+      }
+    },
+    "textfieldlabelmerge2691883641": {
+      "name": "TextFieldLabelMerge",
+      "props": {
+        "children": "Default Label"
+      }
+    },
+    "inputmerge356313427": {
+      "name": "InputMerge",
+      "props": {
+        "placeholder": "Accepts all native input props"
+      }
+    }
+  }
+}
+
+

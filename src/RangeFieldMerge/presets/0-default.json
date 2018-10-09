@@ -1,0 +1,43 @@
+{
+  "rootId": "rangefieldmerge641089351",
+  "elements": {
+    "rangefieldmerge641089351": {
+      "name": "RangeFieldMerge",
+      "props": {
+        "children": [
+          {
+            "uxpinPresetElementId": "rangelabelmerge1939064882"
+          },
+          {
+            "uxpinPresetElementId": "rangemerge3501511925"
+          },
+          {
+            "uxpinPresetElementId": "rangehintmerge3312869834"
+          }
+        ]
+      }
+    },
+    "rangelabelmerge1939064882": {
+      "name": "RangeLabelMerge",
+      "props": {
+        "children": "Range"
+      }
+    },
+    "rangemerge3501511925": {
+      "name": "RangeMerge",
+      "props": {
+        "step": 5,
+        "min": 0,
+        "max": 100
+      }
+    },
+    "rangehintmerge3312869834": {
+      "name": "RangeHintMerge",
+      "props": {
+        "children": "Hint"
+      }
+    }
+  }
+}
+
+

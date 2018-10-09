@@ -1,0 +1,14 @@
+{
+  "rootId": "togglemessagemerge3774677651",
+  "elements": {
+    "togglemessagemerge3774677651": {
+      "name": "ToggleMessageMerge",
+      "props": {
+        "children": "Message",
+        "validation": "success"
+      }
+    }
+  }
+}
+
+

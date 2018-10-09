@@ -1,0 +1,14 @@
+{
+  "rootId": "selectfieldmessagemerge274102108",
+  "elements": {
+    "selectfieldmessagemerge274102108": {
+      "name": "SelectFieldMessageMerge",
+      "props": {
+        "children": "Message",
+        "validation": "success"
+      }
+    }
+  }
+}
+
+

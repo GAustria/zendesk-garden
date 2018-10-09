@@ -1,0 +1,14 @@
+{
+  "rootId": "textareamerge904421259",
+  "elements": {
+    "textareamerge904421259": {
+      "name": "TextAreaMerge",
+      "props": {
+        "placeholder": "Default Textarea",
+        "resizable": true
+      }
+    }
+  }
+}
+
+

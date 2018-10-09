@@ -1,0 +1,13 @@
+{
+  "rootId": "rangelabelmerge2883780613",
+  "elements": {
+    "rangelabelmerge2883780613": {
+      "name": "RangeLabelMerge",
+      "props": {
+        "children": "Label"
+      }
+    }
+  }
+}
+
+

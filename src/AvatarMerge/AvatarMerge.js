@@ -8,8 +8,6 @@ export default class AvatarMerge extends React.Component {
     const props = Object.assign({}, this.props);
     delete this.props.imgSrc;
     delete this.props.imgAlt;
-    console.log(this.props);
-    console.log(props);
     return (
         <Avatar {...this.props}>
             <img src={props.imgSrc} alt={props.imgAlt} />

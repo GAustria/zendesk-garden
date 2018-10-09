@@ -1,0 +1,30 @@
+{
+  "rootId": "selectfieldmerge781772967",
+  "elements": {
+    "selectfieldmerge781772967": {
+      "name": "SelectFieldMerge",
+      "props": {
+        "data": ["Item 1", "Item 2", "Item 3"],
+        "children": {
+          "uxpinPresetElementId": "selectfieldlabelmerge1750179391"
+        },
+        "validation": {
+          "uxpinPresetElementId": "selectfieldmessagemerge1403262949"
+        }
+      }
+    },
+    "selectfieldlabelmerge1750179391": {
+      "name": "CheckboxLabelMerge",
+      "props": {
+        "children": "Select"
+      }
+    },
+    "selectfieldmessagemerge1403262949": {
+      "name": "SelectFieldMessageMerge",
+      "props": {
+        "validation": "success",
+        "children": "Success!"
+      }
+    }
+  }
+}

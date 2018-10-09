@@ -1,0 +1,5 @@
+# InputMerge
+
+```javascript
+<InputMerge />
+```

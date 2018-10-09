@@ -420,6 +420,412 @@
           "documentation": {
             "examples": [
               {
+                "code": "<CheckboxHintMerge>\n    Hint\n</CheckboxHintMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/CheckboxHintMerge",
+            "documentation": {
+              "path": "src/CheckboxHintMerge/CheckboxHintMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/CheckboxHintMerge/CheckboxHintMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CheckboxHintMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CheckboxHintMerge",
+          "presets": [
+            {
+              "elements": {
+                "checkboxhintmergemerge2568494912": {
+                  "name": "CheckboxHintMerge",
+                  "props": {
+                    "children": "Hint"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "checkboxhintmergemerge2568494912"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "    <CheckboxLabelMerge checked={true}>\n        Label\n    </CheckboxLabelMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/CheckboxLabelMerge",
+            "documentation": {
+              "path": "src/CheckboxLabelMerge/CheckboxLabelMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/CheckboxLabelMerge/CheckboxLabelMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CheckboxLabelMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CheckboxLabelMerge",
+          "presets": [
+            {
+              "elements": {
+                "checkboxlabelmergemerge305412055": {
+                  "name": "CheckboxLabelMerge",
+                  "props": {
+                    "checked": true,
+                    "children": "Checkbox"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "checkboxlabelmergemerge305412055"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "regular",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hidden",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "indeterminate",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<CheckboxMerge>\n    <CheckboxLabelMerge>\n        Default Checkbox\n    </CheckboxLabelMerge>\n    <CheckboxMessageMerge validation=\"success\">\n        Success\n    </CheckboxMessageMerge>\n</CheckboxMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/CheckboxMerge",
+            "documentation": {
+              "path": "src/CheckboxMerge/CheckboxMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/CheckboxMerge/CheckboxMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CheckboxMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CheckboxMerge",
+          "presets": [
+            {
+              "elements": {
+                "checkboxlabelmerge1207008655": {
+                  "name": "CheckboxLabelMerge",
+                  "props": {
+                    "children": "Default Checkbox"
+                  }
+                },
+                "checkboxmergemerge1495752796": {
+                  "name": "CheckboxMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "checkboxlabelmerge1207008655"
+                      },
+                      {
+                        "uxpinPresetElementId": "checkboxmessagemerge1370547836"
+                      }
+                    ]
+                  }
+                },
+                "checkboxmessagemerge1370547836": {
+                  "name": "CheckboxMessageMerge",
+                  "props": {
+                    "children": "Success",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "checkboxmergemerge1495752796"
+            }
+          ],
+          "properties": [
+            {
+              "description": "The root ID to use for descendants. A unique ID is created if none is provided.",
+              "isRequired": false,
+              "name": "id",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Applies props to the containing `<div>` element",
+              "isRequired": false,
+              "name": "wrapperProps",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "regular",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hidden",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "indeterminate",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<CheckboxMessageMerge validation=\"success\">\n    Message\n</CheckboxMessageMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/CheckboxMessageMerge",
+            "documentation": {
+              "path": "src/CheckboxMessageMerge/CheckboxMessageMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/CheckboxMessageMerge/CheckboxMessageMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/CheckboxMessageMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "CheckboxMessageMerge",
+          "presets": [
+            {
+              "elements": {
+                "checkboxmessagemerge2165490098": {
+                  "name": "CheckboxMessageMerge",
+                  "props": {
+                    "children": "Message",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "checkboxmessagemerge2165490098"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
                 "code": "<ChevronButtonMerge />"
               }
             ]
@@ -575,6 +981,163 @@
               "type": {
                 "name": "boolean",
                 "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<InputMerge />"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/InputMerge",
+            "documentation": {
+              "path": "src/InputMerge/InputMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/InputMerge/InputMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/InputMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "InputMerge",
+          "presets": [
+            {
+              "elements": {
+                "inputmerge1738916712": {
+                  "name": "InputMerge",
+                  "props": {}
+                }
+              },
+              "name": "default",
+              "rootId": "inputmerge1738916712"
+            }
+          ],
+          "properties": [
+            {
+              "description": "Allows flush spacing of Tab elements",
+              "isRequired": false,
+              "name": "tagLayout",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Applies flex layout to support MediaFigure components",
+              "isRequired": false,
+              "name": "mediaLayout",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "small",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Applies select styling",
+              "isRequired": false,
+              "name": "select",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Removes all borders and styling",
+              "isRequired": false,
+              "name": "bare",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Displays select open state",
+              "isRequired": false,
+              "name": "open",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
               }
             }
           ]
@@ -888,7 +1451,2501 @@
           "documentation": {
             "examples": [
               {
-                "code": "<WellMerge \n    type=\"success\" \n    title=\"Notification Merge\"\n    paragraph=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\n          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation\n          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\"\n/>"
+                "code": "<RadioHintMerge>\n    Hint\n</RadioHintMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RadioHintMerge",
+            "documentation": {
+              "path": "src/RadioHintMerge/RadioHintMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RadioHintMerge/RadioHintMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RadioHintMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RadioHintMerge",
+          "presets": [
+            {
+              "elements": {
+                "radiohintmergemerge671405291": {
+                  "name": "RadioHintMerge",
+                  "props": {
+                    "children": "Hint"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "radiohintmergemerge671405291"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "    <RadioLabelMerge checked={true}>\n        Label\n    </RadioLabelMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RadioLabelMerge",
+            "documentation": {
+              "path": "src/RadioLabelMerge/RadioLabelMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RadioLabelMerge/RadioLabelMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RadioLabelMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RadioLabelMerge",
+          "presets": [
+            {
+              "elements": {
+                "radiolabelmergemerge1171934346": {
+                  "name": "RadioLabelMerge",
+                  "props": {
+                    "checked": true,
+                    "children": "Radio"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "radiolabelmergemerge1171934346"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "regular",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hidden",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "indeterminate",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<RadioMerge>\n    <RadioLabelMerge>\n        Default Checkbox\n    </RadioLabelMerge>\n    <RadioMessageMerge validation=\"success\">\n        Success\n    </RadioMessageMerge>\n</RadioMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RadioMerge",
+            "documentation": {
+              "path": "src/RadioMerge/RadioMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RadioMerge/RadioMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RadioMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RadioMerge",
+          "presets": [
+            {
+              "elements": {
+                "radiolabelmerge3403383402": {
+                  "name": "RadioLabelMerge",
+                  "props": {
+                    "children": "Default Radio"
+                  }
+                },
+                "radiomergemerge4118480396": {
+                  "name": "RadioMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "radiolabelmerge3403383402"
+                      },
+                      {
+                        "uxpinPresetElementId": "radiomessagemerge1257465239"
+                      }
+                    ]
+                  }
+                },
+                "radiomessagemerge1257465239": {
+                  "name": "RadioMessageMerge",
+                  "props": {
+                    "children": "Success",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "radiomergemerge4118480396"
+            }
+          ],
+          "properties": [
+            {
+              "description": "The root ID to use for descendants. A unique ID is created if none is provided. *",
+              "isRequired": false,
+              "name": "id",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Applies props to the containing `<div>` element",
+              "isRequired": false,
+              "name": "wrapperProps",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "regular",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hidden",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<RadioMessageMerge validation=\"success\">\n    Message\n</RadioMessageMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RadioMessageMerge",
+            "documentation": {
+              "path": "src/RadioMessageMerge/RadioMessageMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RadioMessageMerge/RadioMessageMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RadioMessageMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RadioMessageMerge",
+          "presets": [
+            {
+              "elements": {
+                "radiomessagemerge2046190326": {
+                  "name": "RadioMessageMerge",
+                  "props": {
+                    "children": "Message",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "radiomessagemerge2046190326"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "  <RangeFieldMerge>\n    <RangeLabelMerge>\n     Range\n    </RangeLabelMerge>\n    <RangeMerge\n      step={5}\n      min={0}\n      max={100}\n    />\n    <RangeHintMerge>\n     Hint\n    </RangeHintMerge>\n  </RangeFieldMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RangeFieldMerge",
+            "documentation": {
+              "path": "src/RangeFieldMerge/RangeFieldMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RangeFieldMerge/RangeFieldMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RangeFieldMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RangeFieldMerge",
+          "presets": [
+            {
+              "elements": {
+                "rangefieldmerge641089351": {
+                  "name": "RangeFieldMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "rangelabelmerge1939064882"
+                      },
+                      {
+                        "uxpinPresetElementId": "rangemerge3501511925"
+                      },
+                      {
+                        "uxpinPresetElementId": "rangehintmerge3312869834"
+                      }
+                    ]
+                  }
+                },
+                "rangehintmerge3312869834": {
+                  "name": "RangeHintMerge",
+                  "props": {
+                    "children": "Hint"
+                  }
+                },
+                "rangelabelmerge1939064882": {
+                  "name": "RangeLabelMerge",
+                  "props": {
+                    "children": "Range"
+                  }
+                },
+                "rangemerge3501511925": {
+                  "name": "RangeMerge",
+                  "props": {
+                    "max": 100,
+                    "min": 0,
+                    "step": 5
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "rangefieldmerge641089351"
+            }
+          ],
+          "properties": [
+            {
+              "description": "The root ID to use for descendants. A unique ID is created if none is provided.",
+              "isRequired": false,
+              "name": "id",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Apply inline styling to all children",
+              "isRequired": false,
+              "name": "inline",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<RangeHintMerge>\n    Hint\n</RangeHintMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RangeHintMerge",
+            "documentation": {
+              "path": "src/RangeHintMerge/RangeHintMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RangeHintMerge/RangeHintMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RangeHintMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RangeHintMerge",
+          "presets": [
+            {
+              "elements": {
+                "rangehintmerge3466963418": {
+                  "name": "RangeHintMerge",
+                  "props": {
+                    "children": "Hint"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "rangehintmerge3466963418"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "small",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "    <RangeLabelMerge>\n        Label\n    </RangeLabelMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RangeLabelMerge",
+            "documentation": {
+              "path": "src/RangeLabelMerge/RangeLabelMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RangeLabelMerge/RangeLabelMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RangeLabelMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RangeLabelMerge",
+          "presets": [
+            {
+              "elements": {
+                "rangelabelmerge2883780613": {
+                  "name": "RangeLabelMerge",
+                  "props": {
+                    "children": "Label"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "rangelabelmerge2883780613"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "regular",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "small",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "    <RangeMerge\n      step={5}\n      min={0}\n      max={100}\n    />"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RangeMerge",
+            "documentation": {
+              "path": "src/RangeMerge/RangeMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RangeMerge/RangeMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RangeMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RangeMerge",
+          "presets": [
+            {
+              "elements": {
+                "rangemerge1490306911": {
+                  "name": "RangeMerge",
+                  "props": {
+                    "max": 100,
+                    "min": 0,
+                    "step": 5
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "rangemerge1490306911"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "defaultValue",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "min",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "max",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "step",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "onChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "rangeRef",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "backgroundSize",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "number",
+                      "structure": {}
+                    },
+                    {
+                      "name": "string",
+                      "structure": {}
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<RangeMessageMerge validation=\"success\">\n    Message\n</RangeMessageMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/RangeMessageMerge",
+            "documentation": {
+              "path": "src/RangeMessageMerge/RangeMessageMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/RangeMessageMerge/RangeMessageMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/RangeMessageMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "RangeMessageMerge",
+          "presets": [
+            {
+              "elements": {
+                "rangemessagemerge1041109099": {
+                  "name": "RangeMessageMerge",
+                  "props": {
+                    "children": "Message",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "rangemessagemerge1041109099"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<SelectFieldHintMerge>\n    Hint\n</SelectFieldHintMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/SelectFieldHintMerge",
+            "documentation": {
+              "path": "src/SelectFieldHintMerge/SelectFieldHintMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/SelectFieldHintMerge/SelectFieldHintMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/SelectFieldHintMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "SelectFieldHintMerge",
+          "presets": [
+            {
+              "elements": {
+                "selectfieldhintmerge2448323071": {
+                  "name": "SelectFieldHintMerge",
+                  "props": {
+                    "children": "Hint"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "selectfieldhintmerge2448323071"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "    <SelectFieldLabelMerge>\n        Label\n    </SelectFieldLabelMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/SelectFieldLabelMerge",
+            "documentation": {
+              "path": "src/SelectFieldLabelMerge/SelectFieldLabelMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/SelectFieldLabelMerge/SelectFieldLabelMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/SelectFieldLabelMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "SelectFieldLabelMerge",
+          "presets": [
+            {
+              "elements": {
+                "selectfieldlabelmerge1207839480": {
+                  "name": "SelectFieldLabelMerge",
+                  "props": {
+                    "children": "Label"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "selectfieldlabelmerge1207839480"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "regular",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hidden",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "indeterminate",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<SelectFieldMerge\n    data={[\"Item 1\", \"Item 2\", \"Item 3\"]}\n    validation={<SelectFieldMessageMerge validation=\"success\">Success!</SelectFieldMessageMerge>}\n    >\n    <SelectFieldLabelMerge>\n        Select\n    </SelectFieldLabelMerge>\n</SelectFieldMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/SelectFieldMerge",
+            "documentation": {
+              "path": "src/SelectFieldMerge/SelectFieldMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/SelectFieldMerge/SelectFieldMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/SelectFieldMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "SelectFieldMerge",
+          "presets": [
+            {
+              "elements": {
+                "selectfieldlabelmerge1750179391": {
+                  "name": "CheckboxLabelMerge",
+                  "props": {
+                    "children": "Select"
+                  }
+                },
+                "selectfieldmerge781772967": {
+                  "name": "SelectFieldMerge",
+                  "props": {
+                    "children": {
+                      "uxpinPresetElementId": "selectfieldlabelmerge1750179391"
+                    },
+                    "data": ["Item 1", "Item 2", "Item 3"],
+                    "validation": {
+                      "uxpinPresetElementId": "selectfieldmessagemerge1403262949"
+                    }
+                  }
+                },
+                "selectfieldmessagemerge1403262949": {
+                  "name": "SelectFieldMessageMerge",
+                  "props": {
+                    "children": "Success!",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "selectfieldmerge781772967"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "data",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Animate opening of Menu",
+              "isRequired": false,
+              "name": "animate",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Appends the menu to the provided element",
+              "isRequired": false,
+              "name": "appendToNode",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Whether to include an arrow on the visible arrow",
+              "isRequired": false,
+              "name": "arrow",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Menu Items you want to display. All children require a `key` prop",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Whether Popper.js should update based on DOM resize events",
+              "isRequired": false,
+              "name": "eventsEnabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "id",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Controls visibility of menu",
+              "isRequired": false,
+              "name": "isOpen",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The currently focused item",
+              "isRequired": false,
+              "name": "focusedKey",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Returns all controlled state. Used for controlling usage.",
+              "isRequired": false,
+              "name": "onStateChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "trigger",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Callback for when a menu item has been selected by keyboard or mouse",
+              "isRequired": false,
+              "name": "onChange",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Passes options to [Popper.JS Instance](https://github.com/FezVrasta/popper.js/blob/master/docs/_includes/popper-documentation.md#new-popperreference-popper-options)",
+              "isRequired": false,
+              "name": "popperModifiers",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The ref of the select visualization",
+              "isRequired": false,
+              "name": "selectRef",
+              "type": {
+                "name": "func",
+                "structure": {}
+              }
+            },
+            {
+              "description": "All options to display within the Select dropdown",
+              "isRequired": false,
+              "name": "options",
+              "type": {
+                "name": "array",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Whether the component is disabled",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Props to be spread onto the Dropdown element",
+              "isRequired": false,
+              "name": "dropdownProps",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "description": "The z-index of the popper.js placement container",
+              "isRequired": false,
+              "name": "zIndex",
+              "type": {
+                "name": "number",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<SelectFieldMessageMerge validation=\"success\">\n    Message\n</SelectFieldMessageMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/SelectFieldMessageMerge",
+            "documentation": {
+              "path": "src/SelectFieldMessageMerge/SelectFieldMessageMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/SelectFieldMessageMerge/SelectFieldMessageMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/SelectFieldMessageMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "SelectFieldMessageMerge",
+          "presets": [
+            {
+              "elements": {
+                "selectfieldmessagemerge274102108": {
+                  "name": "SelectFieldMessageMerge",
+                  "props": {
+                    "children": "Message",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "selectfieldmessagemerge274102108"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<TagMerge avatarSrc=\"https://api.adorable.io/avatars/285/f@uxpin.com.png\" avatarAlt=\"avatar\" close>\n    Tag\n</TagMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/TagMerge",
+            "documentation": {
+              "path": "src/TagMerge/TagMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/TagMerge/TagMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TagMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TagMerge",
+          "presets": [
+            {
+              "elements": {
+                "tagmerge366688469": {
+                  "name": "TagMerge",
+                  "props": {
+                    "avatarAlt": "avatar",
+                    "avatarSrc": "https://api.adorable.io/avatars/285/f@uxpin.com.png",
+                    "children": "Tag",
+                    "close": true
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "tagmerge366688469"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "small"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "large"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "pill",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "type",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "grey"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "blue"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "kale"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "red"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "green"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "yellow"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "avatarSrc",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "avatarAlt",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "close",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<TextAreaMerge placeholder=\"Default Textarea\" resizable />"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/TextAreaMerge",
+            "documentation": {
+              "path": "src/TextAreaMerge/TextAreaMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/TextAreaMerge/TextAreaMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TextAreaMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TextAreaMerge",
+          "presets": [
+            {
+              "elements": {
+                "textareamerge904421259": {
+                  "name": "TextAreaMerge",
+                  "props": {
+                    "placeholder": "Default Textarea",
+                    "resizable": true
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "textareamerge904421259"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "small",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "bare",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "resizable",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<TextFieldHintMerge>\n    Hint\n</TextFieldHintMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/TextFieldHintMerge",
+            "documentation": {
+              "path": "src/TextFieldHintMerge/TextFieldHintMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/TextFieldHintMerge/TextFieldHintMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TextFieldHintMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TextFieldHintMerge",
+          "presets": [
+            {
+              "elements": {
+                "textfieldhintmerge1378333322": {
+                  "name": "TextFieldHintMerge",
+                  "props": {
+                    "children": "Hint"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "textfieldhintmerge1378333322"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "small",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "    <TextFieldLabelMerge>\n        Label\n    </TextFieldLabelMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/TextFieldLabelMerge",
+            "documentation": {
+              "path": "src/TextFieldLabelMerge/TextFieldLabelMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/TextFieldLabelMerge/TextFieldLabelMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TextFieldLabelMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TextFieldLabelMerge",
+          "presets": [
+            {
+              "elements": {
+                "textfieldlabelmerge785397642": {
+                  "name": "TextFieldLabelMerge",
+                  "props": {
+                    "children": "Label"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "textfieldlabelmerge785397642"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "regular",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "small",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<TextFieldMerge>\n    <TextFieldLabelMerge>\n        Default Label\n    </TextFieldLabelMerge>\n    <InputMerge placeholder=\"Accepts all native input props\" />\n</TextFieldMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/TextFieldMerge",
+            "documentation": {
+              "path": "src/TextFieldMerge/TextFieldMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/TextFieldMerge/TextFieldMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TextFieldMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TextFieldMerge",
+          "presets": [
+            {
+              "elements": {
+                "inputmerge356313427": {
+                  "name": "InputMerge",
+                  "props": {
+                    "placeholder": "Accepts all native input props"
+                  }
+                },
+                "textfieldlabelmerge2691883641": {
+                  "name": "TextFieldLabelMerge",
+                  "props": {
+                    "children": "Default Label"
+                  }
+                },
+                "textfieldmerge3897622714": {
+                  "name": "TextFieldMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "textfieldlabelmerge2691883641"
+                      },
+                      {
+                        "uxpinPresetElementId": "inputmerge356313427"
+                      }
+                    ]
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "textfieldmerge3897622714"
+            }
+          ],
+          "properties": [
+            {
+              "description": "The root ID to use for descendants. A unique ID is created if none is provided.",
+              "isRequired": false,
+              "name": "id",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Apply inline styling to all children",
+              "isRequired": false,
+              "name": "inline",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Allows flush spacing of Tab elements",
+              "isRequired": false,
+              "name": "tagLayout",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Applies flex layout to support MediaFigure components",
+              "isRequired": false,
+              "name": "mediaLayout",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "small",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Applies select styling",
+              "isRequired": false,
+              "name": "select",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Removes all borders and styling",
+              "isRequired": false,
+              "name": "bare",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Displays select open state",
+              "isRequired": false,
+              "name": "open",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<TextFieldMessageMerge validation=\"success\">\n    Message\n</TextFieldMessageMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/TextFieldMessageMerge",
+            "documentation": {
+              "path": "src/TextFieldMessageMerge/TextFieldMessageMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/TextFieldMessageMerge/TextFieldMessageMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TextFieldMessageMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TextFieldMessageMerge",
+          "presets": [
+            {
+              "elements": {
+                "textfieldmessagemerge1980519751": {
+                  "name": "TextFieldMessageMerge",
+                  "props": {
+                    "children": "Message",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "textfieldmessagemerge1980519751"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<ToggleHintMerge>\n    Hint\n</ToggleHintMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/ToggleHintMerge",
+            "documentation": {
+              "path": "src/ToggleHintMerge/ToggleHintMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/ToggleHintMerge/ToggleHintMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/ToggleHintMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "ToggleHintMerge",
+          "presets": [
+            {
+              "elements": {
+                "togglehintmerge2930630484": {
+                  "name": "ToggleHintMerge",
+                  "props": {
+                    "children": "Hint"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "togglehintmerge2930630484"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "    <ToggleLabelMerge checked={true}>\n        Label\n    </ToggleLabelMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/ToggleLabelMerge",
+            "documentation": {
+              "path": "src/ToggleLabelMerge/ToggleLabelMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/ToggleLabelMerge/ToggleLabelMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/ToggleLabelMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "ToggleLabelMerge",
+          "presets": [
+            {
+              "elements": {
+                "togglelabelmerge735048615": {
+                  "name": "ToggleLabelMerge",
+                  "props": {
+                    "checked": true,
+                    "children": "Label"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "togglelabelmerge735048615"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "regular",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "checked",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hidden",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "hovered",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "focused",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "disabled",
+              "type": {
+                "name": "boolean",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<ToggleMerge>\n    <ToggleLabelMerge>\n        Default Toggle\n    </ToggleLabelMerge>\n    <ToggleMessageMerge validation=\"success\">\n        Success\n    </ToggleMessageMerge>\n</ToggleMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/ToggleMerge",
+            "documentation": {
+              "path": "src/ToggleMerge/ToggleMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/ToggleMerge/ToggleMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/ToggleMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "ToggleMerge",
+          "presets": [
+            {
+              "elements": {
+                "togglelabelmerge3254838580": {
+                  "name": "ToggleLabelMerge",
+                  "props": {
+                    "children": "Default Checkbox"
+                  }
+                },
+                "togglemerge1608755150": {
+                  "name": "ToggleMerge",
+                  "props": {
+                    "children": [
+                      {
+                        "uxpinPresetElementId": "togglelabelmerge3254838580"
+                      },
+                      {
+                        "uxpinPresetElementId": "togglemessagemerge27124656"
+                      }
+                    ]
+                  }
+                },
+                "togglemessagemerge27124656": {
+                  "name": "ToggleMessageMerge",
+                  "props": {
+                    "children": "Success",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "togglemerge1608755150"
+            }
+          ],
+          "properties": [
+            {
+              "description": "The root ID to use for descendants. A unique ID is created if none is provided.",
+              "isRequired": false,
+              "name": "id",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            },
+            {
+              "description": "Applies props to the containing `<div>` element",
+              "isRequired": false,
+              "name": "wrapperProps",
+              "type": {
+                "name": "object",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "node",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<ToggleMessageMerge validation=\"success\">\n    Message\n</ToggleMessageMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/ToggleMessageMerge",
+            "documentation": {
+              "path": "src/ToggleMessageMerge/ToggleMessageMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/ToggleMessageMerge/ToggleMessageMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/ToggleMessageMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "ToggleMessageMerge",
+          "presets": [
+            {
+              "elements": {
+                "togglemessagemerge3774677651": {
+                  "name": "ToggleMessageMerge",
+                  "props": {
+                    "children": "Message",
+                    "validation": "success"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "togglemessagemerge3774677651"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "validation",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "success"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "warning"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "error"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "none"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<TypographyMerge size=\"xxl\">\nHello Merge!\n</TypographyMerge>"
+              }
+            ]
+          },
+          "info": {
+            "dirPath": "src/TypographyMerge",
+            "documentation": {
+              "path": "src/TypographyMerge/TypographyMerge.md"
+            },
+            "implementation": {
+              "framework": "reactjs",
+              "lang": "javascript",
+              "path": "src/TypographyMerge/TypographyMerge.js"
+            },
+            "presets": [
+              {
+                "path": "src/TypographyMerge/presets/0-default.json"
+              }
+            ]
+          },
+          "name": "TypographyMerge",
+          "presets": [
+            {
+              "elements": {
+                "typographymerge268407219": {
+                  "name": "TypographyMerge",
+                  "props": {
+                    "children": "Message",
+                    "size": "xxl"
+                  }
+                }
+              },
+              "name": "default",
+              "rootId": "typographymerge268407219"
+            }
+          ],
+          "properties": [
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "children",
+              "type": {
+                "name": "string",
+                "structure": {}
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "size",
+              "type": {
+                "name": "union",
+                "structure": {
+                  "elements": [
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "sm"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "md"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "lg"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xl"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xxl"
+                      }
+                    },
+                    {
+                      "name": "literal",
+                      "structure": {
+                        "value": "xxxl"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "description": "",
+              "isRequired": false,
+              "name": "tag",
+              "type": {
+                "name": "any",
+                "structure": {}
+              }
+            }
+          ]
+        },
+        {
+          "documentation": {
+            "examples": [
+              {
+                "code": "<WellMerge \n    title=\"Notification Merge\"\n    paragraph=\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt\n          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation\n          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in\n          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\"\n/>"
               }
             ]
           },

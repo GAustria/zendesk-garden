@@ -1,0 +1,15 @@
+{
+  "rootId": "rangemerge1490306911",
+  "elements": {
+    "rangemerge1490306911": {
+      "name": "RangeMerge",
+      "props": {
+        "step": 5,
+        "min": 0,
+        "max": 100
+      }
+    }
+  }
+}
+
+

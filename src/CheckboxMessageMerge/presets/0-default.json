@@ -1,0 +1,14 @@
+{
+  "rootId": "checkboxmessagemerge2165490098",
+  "elements": {
+    "checkboxmessagemerge2165490098": {
+      "name": "CheckboxMessageMerge",
+      "props": {
+        "children": "Message",
+        "validation": "success"
+      }
+    }
+  }
+}
+
+

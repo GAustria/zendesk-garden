@@ -1,0 +1,14 @@
+{
+  "rootId": "togglelabelmerge735048615",
+  "elements": {
+    "togglelabelmerge735048615": {
+      "name": "ToggleLabelMerge",
+      "props": {
+        "children": "Label",
+        "checked": true
+      }
+    }
+  }
+}
+
+

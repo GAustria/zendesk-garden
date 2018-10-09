@@ -1,0 +1,14 @@
+{
+  "rootId": "radiolabelmergemerge1171934346",
+  "elements": {
+    "radiolabelmergemerge1171934346": {
+      "name": "RadioLabelMerge",
+      "props": {
+        "children": "Radio",
+        "checked": true
+      }
+    }
+  }
+}
+
+

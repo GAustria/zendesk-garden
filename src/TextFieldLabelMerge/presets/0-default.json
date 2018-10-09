@@ -1,0 +1,13 @@
+{
+  "rootId": "textfieldlabelmerge785397642",
+  "elements": {
+    "textfieldlabelmerge785397642": {
+      "name": "TextFieldLabelMerge",
+      "props": {
+        "children": "Label"
+      }
+    }
+  }
+}
+
+

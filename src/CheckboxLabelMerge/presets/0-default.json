@@ -1,0 +1,14 @@
+{
+  "rootId": "checkboxlabelmergemerge305412055",
+  "elements": {
+    "checkboxlabelmergemerge305412055": {
+      "name": "CheckboxLabelMerge",
+      "props": {
+        "children": "Checkbox",
+        "checked": true
+      }
+    }
+  }
+}
+
+
