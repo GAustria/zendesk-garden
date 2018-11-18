@@ -8,6 +8,7 @@ import CheckboxLabelMerge from '../src/CheckboxLabelMerge/CheckboxLabelMerge';
 import CheckboxMerge from '../src/CheckboxMerge/CheckboxMerge';
 import CheckboxMessageMerge from '../src/CheckboxMessageMerge/CheckboxMessageMerge';
 import ChevronButtonMerge from '../src/ChevronButtonMerge/ChevronButtonMerge';
+import IconMerge from '../src/IconMerge/IconMerge';
 import InputMerge from '../src/InputMerge/InputMerge';
 import LoaderMerge from '../src/LoaderMerge/LoaderMerge';
 import NotificationsMerge from '../src/NotificationsMerge/NotificationsMerge';
@@ -47,6 +48,7 @@ export {
   CheckboxMerge,
   CheckboxMessageMerge,
   ChevronButtonMerge,
+  IconMerge,
   InputMerge,
   LoaderMerge,
   NotificationsMerge,

@@ -40,7 +40,8 @@ module.exports = {
             "src/ToggleLabelMerge/ToggleLabelMerge.js",
             "src/ToggleMessageMerge/ToggleMessageMerge.js",
             "src/TagMerge/TagMerge.js",
-            "src/TypographyMerge/TypographyMerge.js"
+            "src/TypographyMerge/TypographyMerge.js",
+            "src/IconMerge/IconMerge.js"
           ]
         }
       ]
@@ -53,6 +54,7 @@ module.exports = {
   "src/DropdownItemRadioMerge/DropdownItemRadioMerge.js"
   
   uxpin-code --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --cwd ~/Documents/dev/zendesk/garden --dump > ./metadata.json
+   uxpin-code server --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js --cwd ~/Documents/dev/zendesk/garden --dump > ./metadata.json
   */
   
   
