@@ -54,7 +54,7 @@ module.exports = {
             "src/TextFieldLabel/TextFieldLabel.js",
             "src/TextFieldMessage/TextFieldMessage.js",
             "src/TextFieldHint/TextFieldHint.js",
-            "src/TextArea/TextArea.js",
+            "src/Textarea/Textarea.js",
             "src/Toggle/Toggle.js",
             "src/ToggleHint/ToggleHint.js",
             "src/ToggleLabel/ToggleLabel.js",
