@@ -1,5 +1,0 @@
-# ChevronButtonMerge
-
-```javascript
-<ChevronButtonMerge />
-```
