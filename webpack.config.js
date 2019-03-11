@@ -1,6 +1,5 @@
 const path = require("path");
 const webpack = require("webpack");
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     entry: ["./src/index.js"],
@@ -55,12 +54,3 @@ module.exports = {
       ]
     }
 };
-
-
-/**
- *      options: {
-            babelrc: false,
-            presets: ['es2015', 'react', 'stage-0'],
-            plugins: ['inline-react-svg', 'transform-object-assign', 'styled-components']
-          }
- */
