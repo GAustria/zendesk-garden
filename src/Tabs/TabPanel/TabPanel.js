@@ -7,6 +7,7 @@ const TabPanel = props => <TabPanelM {...props} />;
 
 TabPanel.propTypes = {
     children: PropTypes.node,
+    label: PropTypes.string
 }
 
 export default TabPanel;
