@@ -1,7 +1,7 @@
 # Zendesk Garden + UXPin Merge
 Integration of [Garden](https://garden.zendesk.com/react-components) with UXPin Merge Technology. Check out [Merge Wiki](https://wikiuxpin.atlassian.net/wiki/spaces/MA) for detailed documentation
 
-![alt text](https://i.imgur.com/bLp5zRb.png "Grommet and Merge")
+![alt text](https://github.com/uxpin-merge/zendesk-garden/blob/master/img/zendesk_main.png "Garden and Merge")
 
 ## About Zendesk Garden and this repository.
 
@@ -36,9 +36,9 @@ If you wish to push Zendesk Garden components to your UXPin account – check gu
 
 ## Examples
 
-![alt text](https://github.com/uxpin-merge/grommet/blob/master/img/grommet_1.gif "Grommet in UXPin Merge")
+![alt text](https://github.com/uxpin-merge/zendesk-garden/blob/master/img/zendesk_1.gif "Garden Tabs in UXPin Merge")
 
-![alt text](https://github.com/uxpin-merge/grommet/blob/master/img/grommet_calendar.gif "Grommet Calendar in Merge")
+![alt text](https://github.com/uxpin-merge/zendesk-garden/blob/master/img/zendesk_tabs.gif "Garden Tabs horizontal and vertical in Merge")
 
 ## Theming
 
