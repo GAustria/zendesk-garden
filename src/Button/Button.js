@@ -28,7 +28,8 @@ Button.propTypes = {
   active: PropTypes.bool,
   selected: PropTypes.bool,
   /** Callback for reference of the native button element */
-  buttonRef: PropTypes.func
+  buttonRef: PropTypes.func,
+  onClick: PropTypes.func,
 };
 
 export default Button;
