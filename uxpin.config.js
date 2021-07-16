@@ -137,8 +137,10 @@ module.exports = {
             "src/Chrome/SubNav/CollapsibleSubNavItem/CollapsibleSubNavItem.js",
           ]
         }
-      ]
-    }
+      ],
+    wrapper: 'src/Wrapper/UXPinWrapper.js',
+    webpackConfig: 'webpack.config.js',
+    },
+    name: "Zendesk Garden"
   };
-  
-  
+
